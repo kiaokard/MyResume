@@ -1,0 +1,43 @@
+/* CSS for circular image */
+.circular-image {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: auto;
+}
+
+.circular-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Styling for body */
+body {
+    font-family: 'Arabica', sans-serif;
+    background: linear-gradient(135deg, #f0f8ff, #e6e6fa); /* สีพื้นหลังไล่สี */
+    color: #333;
+}
+
+nav {
+    margin-bottom: 30px;
+    background-color: #4b0082;
+}
+
+.navbar-brand, .nav-link {
+    color: #fff !important;
+}
+
+section {
+    padding: 50px 0;
+    background-color: transparent; /* ไม่มีกรอบหรือสีพื้นหลัง */
+}
+
+h2, h1 {
+    color: #4b0082; /* สีสำหรับหัวข้อ */
+}
+
+hr {
+    border: 1px solid #ddd;
+}
